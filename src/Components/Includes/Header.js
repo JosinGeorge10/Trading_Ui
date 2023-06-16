@@ -26,8 +26,10 @@ function Header() {
           <IconContainer>
             <IconImage2></IconImage2>
             <IconImage3></IconImage3>
-            <GraphImage src={require("../../Assets/Images/baricon.png")}
-            alt="Bar" />
+            <GraphImage
+              src={require("../../Assets/Images/baricon.png")}
+              alt="Bar"
+            />
           </IconContainer>
           <Title>Reports</Title>
           <ImageSection>
@@ -50,7 +52,6 @@ const HeaderSec = styled.header`
   background: #1b1c30;
   display: flex;
   width: 100%;
-  /* position: fixed; */
 `;
 const Wrapper = styled.div`
   width: 95%;
@@ -131,9 +132,9 @@ const SubHeader = styled.h6`
   color: #fff;
   font-size: 10px;
 `;
-const ArrowContainer = styled.div``;
+const ArrowContainer = styled.div`
+`;
 const ArrowImage = styled(IconImage)`
   background-position: -305px -172px;
 `;
-
 export default Header;

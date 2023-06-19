@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import image from "../../Assets/Images/icons.svg";
+import Graph from "../Includes/Graph";
 
 
 function Demo() {
@@ -90,7 +91,7 @@ function Demo() {
       <SectionGraph>
         <Price>
           <MiddleContainer>
-            
+            <Graph/>  
           </MiddleContainer>
         </Price>
         <MarketStatus>

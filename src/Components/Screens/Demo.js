@@ -247,7 +247,63 @@ function Demo() {
       </SectionGraph>
       <MarketingAnalysisConatiner>
         <PriceChange>
-          
+        <MainContainer>
+            <Caption>USD Price Change</Caption>
+            <PriceContainer>
+              <UsContainer>
+                <ChangeContainer>Period</ChangeContainer>
+                <ChangeContainer>Change</ChangeContainer>
+                <ChangeContainer>Change</ChangeContainer>
+                <ImageArrow>
+                  <ChangeContainer>High</ChangeContainer>
+                  <ArrowMark></ArrowMark>
+                </ImageArrow>
+                <ArrowTag>
+                  <ChangeContainer>Low</ChangeContainer>
+                  <TagImage></TagImage>
+                </ArrowTag>
+              </UsContainer>
+              <UsContainer1>
+                <ChangeContainer1>5 May-12May</ChangeContainer1>
+                <ChangeContainer2>-$ 40.45</ChangeContainer2>
+                <ChangeContainer3>-0.27%</ChangeContainer3>
+                <ArrowTag1>
+                  <ChangeContainer4>$0.21%</ChangeContainer4>
+                  <TagImage1></TagImage1>
+                </ArrowTag1>
+                <ArrowTag>
+                  <ChangeContainer5>$0.21%</ChangeContainer5>
+                  <TagImage></TagImage>
+                </ArrowTag>
+              </UsContainer1>
+              <UsContainer3>
+                <ChangeContainer1>5 May-12May</ChangeContainer1>
+                <ChangeContainer2>-$ 40.45</ChangeContainer2>
+                <ChangeContainer3>-0.27%</ChangeContainer3>
+                <ArrowTag1>
+                  <ChangeContainer4>$0.21%</ChangeContainer4>
+                  <TagImage1></TagImage1>
+                </ArrowTag1>
+                <ArrowTag>
+                  <ChangeContainer5>$0.21%</ChangeContainer5>
+                  <TagImage></TagImage>
+                </ArrowTag>
+              </UsContainer3>
+              <UsContainer1>
+                <ChangeContainer1>5 May-12May</ChangeContainer1>
+                <ChangeContainer2>-$ 40.45</ChangeContainer2>
+                <ChangeContainer3>-0.27%</ChangeContainer3>
+                <ArrowTag1>
+                  <ChangeContainer4>$0.21%</ChangeContainer4>
+                  <TagImage1></TagImage1>
+                </ArrowTag1>
+                <ArrowTag>
+                  <ChangeContainer5>$0.21%</ChangeContainer5>
+                  <TagImage></TagImage>
+                </ArrowTag>
+              </UsContainer1>
+            </PriceContainer>
+          </MainContainer>
         </PriceChange>
 
         <Analytics>

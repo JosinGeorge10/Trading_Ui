@@ -90,7 +90,7 @@ function Demo() {
       <SectionGraph>
         <Price>
           <MiddleContainer>
-
+            
           </MiddleContainer>
         </Price>
         <MarketStatus>
@@ -308,7 +308,27 @@ function Demo() {
 
         <Analytics>
           <BottomContainer>
-            
+          <RightContainer>
+              <Heading>Market Analytics</Heading>
+              <ImageContainer>
+                <Image
+                  src={require("../../Assets/Images/graph-bottom.png")}
+                  alt="Graph"
+                />
+              </ImageContainer>
+              <MarketContainer>
+                <CopContainer>
+                  <Word1>Market Cop</Word1>
+                  <String1>$1.23B</String1>
+                  <IconArrow1></IconArrow1>
+                </CopContainer>
+                <VolumeContainer>
+                  <Word2>7 day Volume</Word2>
+                  <String2>$125.42M</String2>
+                  <IconArrow2></IconArrow2>
+                </VolumeContainer>
+              </MarketContainer>
+            </RightContainer>
           </BottomContainer>
         </Analytics>
       </MarketingAnalysisConatiner>

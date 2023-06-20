@@ -84,9 +84,9 @@ const Wrapper2 = styled.div`
 `;
 const MenuContainer = styled.div``;
 const ListItem = styled.h3`
-  /* margin-bottom: 20px; */
-  /* margin-top: 45px; */
-  font-size: 15px;
+  /* margin-bottom: 21px; */
+  /* margin-top: 44px; */
+  font-size: 16px;
   color: #4d525f;
   margin: 0 0 30px;
 `;
